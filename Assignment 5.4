@@ -1,6 +1,7 @@
-# Section 5 -> Multivariate Data
 
-# Q. 5.1
+
+# Problem 5.1
+
 data(package="UsingR", emissions)
 summary(emissions)
 #      GDP            perCapita          CO2        
@@ -24,7 +25,8 @@ dev.off()
 detach(emissions)
 
 
-# Q. 5.2
+# Problem 5.2
+
 data(package="UsingR", chips)
 summary(chips)
 #     wafer11          wafer12        wafer13        wafer14      
@@ -51,7 +53,8 @@ simple.densityplot(chips)
 dev.off()
 
 
-# Q. 5.3
+# Problem 5.3
+
 data(package="UsingR", chicken)
 summary(chicken)
 #     Ration1         Ration2     Ration3     
@@ -66,7 +69,8 @@ boxplot(chicken, main="5.3 - chicken")
 dev.off()
 
 
-# Q. 5.4
+# Problem 5.4
+
 library(MASS)
 data(package="UsingR", kid.weights)
 summary(kid.weights)
@@ -85,7 +89,9 @@ boxplot(weight ~ age.yr, main="5.4 - age vs. weights")
 dev.off()
 detach(kid.weights)
 
-# Q. 5.5
+
+# Problem 5.5
+
 data(package='UsingR', carbon)
 summary(carbon)
 #     Monoxide           Site  
@@ -103,7 +109,8 @@ dev.off()
 detach(carbon)
 
 
-# Q. 5.6
+# Problem 5.6
+
 data(package='UsingR', babies)
 summary(babies)
 #       id          pluralty    outcome       date        gestation          sex   
